@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 80">
+  <title>Rahul Rao RRR logo</title>
+  <g fill="none" stroke="#fffaf2" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 64V17h18c12 0 18 5 18 13s-6 13-18 13H8M26 43l19 21"/>
+    <path d="M8 64V17h18c12 0 18 5 18 13s-6 13-18 13H8M26 43l19 21" transform="translate(46 0)"/>
+    <path d="M8 64V17h18c12 0 18 5 18 13s-6 13-18 13H8M26 43l19 21" transform="translate(92 0)"/>
+  </g>
+  <path d="M146 5c0 6.5-3.5 10-10 10 6.5 0 10 3.5 10 10 0-6.5 3.5-10 10-10-6.5 0-10-3.5-10-10Z" fill="#ffd89d"/>
+</svg>
