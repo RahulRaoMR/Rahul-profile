@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#df3f31" />
-  <meta name="description" content="Rahul Rao MR is a full stack developer. Explore six live web projects, skills, experience, and a downloadable resume." />
+  <meta name="description" content="Rahul Rao MR is a full stack developer. Explore seven live web projects, skills, experience, and a downloadable resume." />
   <title>Rahul Rao MR — Full Stack Developer</title>
   <link rel="icon" type="image/svg+xml" href="assets/rahul-favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -55,7 +55,7 @@
           <img class="portrait-image" data-gaze="right" src="assets/rahul-3d-right.png" alt="" width="1151" height="1366" />
           <img class="portrait-image" data-gaze="down" src="assets/rahul-3d-down.png" alt="" width="1149" height="1368" />
         </div>
-        <div class="hero-hint"><span class="hint-spark" aria-hidden="true">✦</span> Move your cursor</div>
+        <div class="hero-hint"><span class="hint-spark" aria-hidden="true">✦</span><span class="hero-hint-cursor">Move your cursor</span><span class="hero-hint-touch">Tap or swipe the portrait</span></div>
       </div>
 
       <p class="hero-side-note" aria-hidden="true">DESIGN · DEVELOPMENT · EXPERIENCE</p>
@@ -82,11 +82,12 @@
           <div class="projects-carousel-top">
             <span class="projects-carousel-label">EXPLORE THE WORK</span>
             <div class="projects-carousel-navigation">
-              <span class="projects-carousel-count" aria-live="polite" aria-atomic="true">01 / 06</span>
+              <span class="projects-carousel-count" aria-live="polite" aria-atomic="true">01 / 07</span>
               <button class="projects-carousel-arrow" type="button" data-project-prev aria-controls="projects-track" aria-label="Previous project">&larr;</button>
               <button class="projects-carousel-arrow" type="button" data-project-next aria-controls="projects-track" aria-label="Next project">&rarr;</button>
             </div>
           </div>
+          <div class="projects-deck">
           <div class="projects-grid" id="projects-track" tabindex="0" aria-label="Projects. Use the arrow keys or swipe to browse.">
       <article class="project-card">
         <div class="project-media">
@@ -208,10 +209,32 @@
           </div>
         </div>
       </article>
+      <article class="project-card project-card-arvane">
+        <div class="project-media">
+          <img src="assets/project-arvane.png" alt="Arvane Design Studio homepage showcasing architecture and interior design" loading="lazy" decoding="async" width="1440" height="900" />
+          <span class="project-image-note">Architecture &amp; interiors</span>
+        </div>
+        <div class="project-body">
+          <p class="project-kind">07 / Architecture &amp; interiors</p>
+          <h3>Arvane Design Studio</h3>
+          <p class="project-copy">A design studio website bringing architecture, interiors, and spatial experiences into focus. Explore selected spaces, the studio's process, and a direct path to a design consultation.</p>
+          <div class="project-tech" aria-label="Technologies used"><span>React</span><span>Three.js</span><span>GSAP</span></div>
+          <div class="project-actions">
+            <a href="https://arvane.talme.co.in/" target="_blank" rel="noopener noreferrer">View Live <span aria-hidden="true">&#8599;</span></a>
+            <button type="button" data-details="arvane-details" aria-controls="arvane-details" aria-expanded="false"><span class="details-label">View Details</span> <span aria-hidden="true">+</span></button>
           </div>
-          <div class="projects-carousel-bottom" aria-hidden="true">
-            <span>SWIPE OR USE THE ARROWS</span>
-            <span class="projects-carousel-progress"><span data-project-progress></span></span>
+          <div class="project-details" id="arvane-details" hidden>
+            <strong>At a glance</strong>
+            <ul><li>Architecture and interior design project showcase with a studio process section.</li><li>Interactive presentation built with React, Three.js, and GSAP.</li><li>Consultation enquiry flow for new design projects.</li></ul>
+          </div>
+        </div>
+      </article>
+          </div>
+          </div>
+          <div class="projects-carousel-bottom">
+            <span class="projects-carousel-hint">SWIPE OR USE THE ARROWS</span>
+            <div class="projects-carousel-dots" role="group" aria-label="Choose a project"></div>
+            <span class="projects-carousel-progress" aria-hidden="true"><span data-project-progress></span></span>
           </div>
         </div>
       </div>
